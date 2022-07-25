@@ -1,0 +1,50 @@
+* {
+    background-color: #f5f6f6;
+}
+
+a.nav-link {
+    color: #979797
+}
+
+nav {
+    padding: 6rem;
+}
+
+.bi {
+    font-size: 2rem;
+}
+
+.bi-google {
+    color: #E64631;
+}
+
+.jumbotron h1 {
+    font-weight: 400;
+}
+
+.bi-search {
+    font-size: 1rem;
+}
+
+.bi-search {
+    color: black;
+}
+
+.intex {
+    border-color: #f5f6f6;
+}
+
+.intex:focus {
+    border: none;
+}
+
+.inbut:hover {
+    background-color: #f5f6f6;
+}
+
+#nav-home-tab,
+#nav-profile-tab,
+#nav-contact-tab {
+    background-color: transparent;
+    border: none;
+}
