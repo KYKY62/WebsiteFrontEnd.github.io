@@ -2,21 +2,41 @@
     background-color: #f5f6f6;
 }
 
+
+
 a.nav-link {
-    color: #979797
+    color: #979797;
 }
 
-nav {
-    padding: 6rem;
+nav.top-header {
+    padding: 1rem 6rem;
+
 }
 
-.bi {
-    font-size: 2rem;
+
+
+/* CSS untuk Icon */
+.icon_gmail,
+.icon_facebook {
+    width: 22px;
+    height: 22px;
 }
 
-.bi-google {
-    color: #E64631;
+.icon_filter,
+.icon_fav,
+.icon_download {
+    width: 18px;
+    height: 18px;
 }
+
+.icon_indicator {
+    width: 7px;
+    height: 7px;
+}
+
+
+/*Akhir CSS untuk Icon */
+
 
 .jumbotron h1 {
     font-weight: 400;
@@ -42,9 +62,64 @@ nav {
     background-color: #f5f6f6;
 }
 
-#nav-home-tab,
-#nav-profile-tab,
-#nav-contact-tab {
-    background-color: transparent;
-    border: none;
+
+
+/* CSS Category */
+#nav-latest-tab,
+#nav-popular-tab,
+#nav-free-tab,
+#nav-premium-tab {
+    background-color: #f5f6f6;
+    border: transparent;
 }
+
+#nav-premium-tab {
+    color: gold;
+}
+
+#category {
+    padding: 1rem 6rem;
+}
+
+.card-title {
+    color: #979797;
+}
+
+.card-body {
+    background-color: #F5F6F6;
+}
+
+.img_fav {
+    background-color: #e1dede;
+}
+
+.txt_disco a {
+    color: black;
+    font-weight: 600;
+}
+
+img.disc_img {
+    width: 25;
+    height: 25;
+
+}
+
+.btn_next {
+    font-weight: 600;
+}
+
+.txt_collection a {
+    color: black;
+    font-weight: 600;
+}
+
+.txt_page {
+    color: #979797;
+}
+
+.btn_left {
+    border-color: transparent;
+
+}
+
+/* Akhir CSS Category */

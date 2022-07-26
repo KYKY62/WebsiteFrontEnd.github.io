@@ -17,7 +17,7 @@
 
 <body>
     <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light top-header">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Vektor</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -53,8 +53,12 @@
                 </ul>
                 <form class="d-flex">
                     <button class="btn btn-outline-success me-5 " type="submit">+Submit</button>
-                    <a href="" class="me-3"><em class="bi bi-google"></em></a>
-                    <a href=""><em class="bi bi-facebook "></em></a>
+                    <a href="" class="me-3  shadow p-2 bg-body rounded-circle">
+                        <img src="assets/img/gmail.png" alt="gmail" class="icon_gmail">
+                    </a>
+                    <a href="" class=" shadow p-2 bg-body rounded-circle">
+                        <img src="assets/img/facebook.png" alt="facebook" class="icon_facebook">
+                    </a>
                 </form>
             </div>
         </div>
@@ -91,7 +95,7 @@
                 <input type="text" placeholder="Search Vectors..." class="form-control intex border-secondary"
                     aria-label="Text input with dropdown button">
                 <button class="btn btn-outline-secondary inbut" type="button" id="button-addon2">
-                    <i class="bi bi-search"></i>
+                    <em class="bi bi-search"></em>
                 </button>
             </div>
             <!-- Akhir Dropdown Vectors -->
@@ -101,29 +105,136 @@
 
     <!-- Category -->
     <section id="category">
-        <nav>
-            <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                <button class="nav-link" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button"
-                    role="tab" aria-controls="nav-home" aria-selected="true">Latest
-                </button>
-                <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
-                    type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Popular
-                </button>
-                <h2>|</h2>
-                <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
-                    type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Premium
-                </button>
-                <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
-                    type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Free
-                </button>
+        <div class="col-12 mb-0 mt-3">
+            <nav>
+                <div class="nav nav-category " id="nav-tab" role="tablist">
+                    <button class="nav-link text-dark fw-bold " id="nav-latest-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-latest" type="button" role="tab" aria-controls="nav-latest"
+                        aria-selected="true">
+                        <span class="d-flex">
+                            Latest
+                            <img src="assets/img/indicator.png" alt="" class="icon_indicator">
+                        </span>
+
+
+                    </button>
+                    <button class="nav-link text-dark fw-bold " id="nav-popular-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-popular" type="button" role="tab" aria-controls="nav-popular"
+                        aria-selected="false">Popular
+                    </button>
+                    <h2 class="disabled">|</h2>
+                    <button class="nav-link  fw-bold" id="nav-premium-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-premium" type="button" role="tab" aria-controls="nav-premium"
+                        aria-selected="false">Premium
+                    </button>
+                    <button class="nav-link  fw-bold me-auto" id="nav-free-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-free" type="button" role="tab" aria-controls="nav-free"
+                        aria-selected="false">Free
+                    </button>
+                    <form class="d-flex ">
+                        <a href="" class="me-3">
+                            <img src="assets/img/filter.png" alt="filter" class="icon_filter">
+                        </a>
+                        <a href="">
+                            <img src="assets/img/fav.svg" alt="favorite" class="icon_fav">
+                        </a>
+                    </form>
+                </div>
+            </nav>
+            <div class="col-12 ms-3 mt-3 ">
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active " id="nav-latest" role="tabpanel"
+                        aria-labelledby="nav-latest-tab">
+                        <div class="row ">
+                            <div class="col-4 border border-white border-5 rounded mb-3 ">
+                                <div class="card-body ">
+                                    <img src="assets/img/v1.jpg" class="card-img-top img_fav p-3" alt="...">
+                                    <h5 class="card-title mt-3 text-center">
+                                        Human Ilustration
+                                    </h5>
+                                </div>
+                                <div class="card-body text-center">
+                                    <span>
+                                        <a href="#" class="card-link text-dark fw-bold fs-3 me-2">Download</a><img
+                                            class="icon_download mb-2" src="assets/img/download.svg" alt="download">
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-4 border border-white border-5 rounded mb-3  ">
+                                <div class="card-body ">
+                                    <img src="assets/img/v2.jpg" class="card-img-top img_fav p-3" alt="...">
+                                    <h5 class="card-title mt-3 text-center">
+                                        Samurai Ilustration
+                                    </h5>
+                                </div>
+                                <div class="card-body text-center">
+                                    <span>
+                                        <a href="#" class="card-link text-dark fw-bold fs-3 me-2">Download</a><img
+                                            class="icon_download mb-2" src="assets/img/download.svg" alt="download">
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-4 border border-white border-5 rounded mb-3 ">
+                                <div class="card-body ">
+                                    <img src="assets/img/v3.jpg" class="card-img-top img_fav p-3" alt="...">
+                                    <h5 class="card-title mt-3 text-center">
+                                        Anime Ilustration
+                                    </h5>
+                                </div>
+                                <div class="card-body text-center">
+                                    <span>
+                                        <a href="#" class="card-link text-dark fw-bold fs-3 me-2">Download</a><img
+                                            class="icon_download mb-2" src="assets/img/download.svg" alt="download">
+                                    </span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-popular" role="tabpanel" aria-labelledby="nav-popular-tab">
+                        <div class="row">
+                            <div class="col-4">
+                                <p>Data</p>
+                            </div>
+                            <div class="col-4">
+                                <p>Data</p>
+                            </div>
+                            <div class="col-4">
+                                <p>Data</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-premium" role="tabpanel" aria-labelledby="nav-premium-tab">
+                        Premium
+                    </div>
+                    <div class="tab-pane fade" id="nav-free" role="tabpanel" aria-labelledby="nav-free-tab">Free
+                    </div>
+                </div>
+
             </div>
-        </nav>
-        <div class="tab-content" id="nav-tabContent">
-            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">...
-            </div>
-            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
-            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
         </div>
+        <div class="container mt-3 mb-3">
+            <div class="row ">
+                <div class="col-5 me-5 txt_collection ">
+                    <a href="">Discover All</a><br>
+                    <a href="">Collection</a>
+                </div>
+                <div class="col-lg-4 m-auto ">
+                    <button class="btn border-white rounded-3 bg-white btn_next">Next Page
+                        <img src="assets/img/arrow-right.svg" alt="">
+                    </button>
+                </div>
+                <div class="col-2 m-auto">
+                    <span class="txt_page">Page
+                        <button class="btn btn_left w-25"><img src="assets/img/arrow-left.svg" alt="">
+                            <button class="btn bg-white border me-1">1</button>
+                            <span class="m-auto">Of 120</span>
+                        </button>
+                    </span>
+                </div>
+            </div>
+        </div>
+
     </section>
     <!-- AkhirCategory -->
 
