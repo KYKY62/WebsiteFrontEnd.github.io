@@ -1,0 +1,528 @@
+:root {
+    --pw-color: #048853;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3fff4;
+}
+
+/* Navbar */
+.navbar {
+    z-index: 3;
+}
+
+* {
+    z-index: 2;
+}
+
+.accent-img {
+    z-index: 1;
+}
+
+.img-hero {
+    z-index: 1;
+}
+
+.logo_navbar {
+    width: 30px;
+}
+
+.navbar-brand {
+    font-size: 20px;
+}
+
+.nav-link {
+    font-size: 16px;
+}
+
+.button-primary {
+    width: 133px;
+    height: 40px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+
+}
+
+.button-secondary {
+    width: 133px;
+    height: 40px;
+    background-color: #fff;
+    color: var(--pw-color);
+    font-size: 16px;
+    border: none;
+}
+
+/* Akhir Navbar */
+
+/* Hero Section */
+#hero {
+    background: linear-gradient(160deg, var(--pw-color), #000);
+    height: 100vh;
+    width: 100%;
+}
+
+.hero-line h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 72px;
+}
+
+.hero-line p {
+    width: 75%;
+    font-size: 16;
+    color: #fff;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.button-lg-primary {
+    width: 237px;
+    height: 70px;
+    background-color: #fff;
+    border: none;
+    color: var(--pw-color);
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 13px;
+}
+
+.img-hero {
+    height: 100%;
+}
+
+/* Akhir Hero Section */
+
+/* Layanan */
+#layanan {
+    padding: 100px 0;
+}
+
+h2.layanan-title {
+    color: var(--pw-color);
+    font-size: 48px;
+    font-weight: 500;
+}
+
+span.sub-title {
+    font-size: 18px;
+    color: #000;
+}
+
+.card-layanan {
+    width: 100%;
+    height: 313px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 55px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0, 0.05);
+    transition: all .2s ease-in;
+}
+
+.circle-icon img {
+    width: 57px;
+    height: 57px;
+}
+
+.circle-icon {
+    width: 70px;
+    height: 70px;
+    background-color: var(--pw-color);
+    border-radius: 50%;
+    transition: all .1s ease-in;
+}
+
+.card-layanan h3 {
+    color: var(--pw-color);
+    font-weight: 600;
+    font-size: 24px;
+    transition: all .2s ease-in;
+}
+
+.card-layanan p {
+    font-size: 14px;
+    color: #000;
+    transition: all .3s ease-in;
+}
+
+/* Kondisi Hover */
+.card-layanan:hover {
+    width: 100%;
+    height: 313px;
+    background: linear-gradient(160deg, var(--pw-color), rgb(46, 46, 46));
+    border-radius: 5px;
+    padding: 55px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0, 0.05);
+    transition: all .2s ease-in;
+}
+
+.circle-icon:hover img {
+    width: 57px;
+    height: 57px;
+}
+
+.card-layanan:hover .circle-icon {
+    background-color: #fff;
+    transition: all .2s ease-in;
+}
+
+.card-layanan:hover h3 {
+    color: var(--pw-color);
+    font-weight: 600;
+    font-size: 24px;
+    transition: all .2s ease-in;
+}
+
+.card-layanan:hover p {
+    font-size: 14px;
+    color: #fff;
+    transition: all .2s ease-in;
+}
+
+/* Akhir Kondisi Hover */
+
+/* Akhir Layanan */
+
+/* Search Section */
+#search {
+    background-image: url(assets/img/Img-search.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.SearchTitle {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+
+.SearchSubTitle {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+
+.input-cari {
+    height: 88px;
+}
+
+.input-cari:focus {
+    border: none;
+}
+
+.input-cari .button-secondary {
+    width: 200px;
+    height: 88px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 0 0 0 10px;
+}
+
+.input-cari .button-primary {
+    width: 135px;
+    height: 88px;
+    border: none;
+    background-color: var(--pw-color);
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.nav-tabs {
+    border: none;
+}
+
+.nav-tabs .nav-link {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: var(--pw-color);
+    border-radius: 0 9px 0 0;
+    font-weight: 500;
+}
+
+.nav-tabs .nav-link {
+    color: #000;
+    border: none;
+}
+
+/* Akhir Search Section */
+
+/* Rekomendasi */
+.card {
+    width: 85%;
+    height: 460px;
+    border: none;
+}
+
+.card-body h4 {
+    color: #000;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 0.8rem;
+}
+
+.card-body p {
+    color: #454545;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* Rekomendasi Hover */
+
+.card:hover {
+    background: linear-gradient(170deg, var(--pw-color), #007245, #007245, #000);
+    box-shadow: 0 10px 20px rgba(0, gr0, b0, .25);
+    transition: all ease-in-out 0.3s;
+}
+
+.card:hover .card-body h4 {
+    color: #fff;
+    transition: all ease-in-out 0.3s;
+}
+
+.card:hover .card-body p {
+    color: #fff;
+    transition: all ease-in-out 0.3s;
+}
+
+.card:hover .card-body span {
+    color: #FF7A00;
+    transition: all ease-in-out 0.3s;
+
+}
+
+.card:hover .card-fasilitas {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 10px;
+    background-color: #fff;
+    transition: all ease-in-out 0.3s;
+}
+
+/* Akhir Rekomendasi Hover */
+
+.card-fasilitas span {
+    font-weight: 500;
+    margin-top: 18px;
+    color: #000;
+}
+
+.card-fasilitas p {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+/* Akhir Rekomendasi */
+
+/* Fitur Rumah */
+#fitur-rumah h2 {
+    font-size: 48px;
+    color: var(--pw-color);
+    font-weight: 500;
+    line-height: 72px;
+
+}
+
+.button-fitur {
+    background-color: var(--pw-color);
+    width: 238px;
+    height: 63px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    border: none;
+    color: #fff;
+}
+
+
+
+.card-fitur h5 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.card-fitur span {
+    color: #fff;
+    font-size: 14px;
+}
+
+.card-fitur h6 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.card-fitur button {
+    background-color: var(--pw-color);
+    color: #fff;
+    font-size: 18px;
+    width: 150px;
+    height: 45px;
+    font-weight: 500;
+    border: none;
+}
+
+.card-fitur .overlay {
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+    transition: all ease-in-out .3s;
+
+}
+
+.card-fitur .overlay:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 1;
+}
+
+.button-left {
+    border: none;
+    border-radius: 50%;
+    width: 61px;
+    height: 61px;
+    background-color: var(--pw-color);
+}
+
+.button-right {
+    border: none;
+    border-radius: 50%;
+    width: 61px;
+    height: 61px;
+    background-color: var(--pw-color);
+    right: 230px;
+
+}
+
+/* Akhir Fitur Rumah */
+
+
+/* Bantuan */
+
+#bantuan {
+    background-image: url(assets/img/kontak-img.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 158px;
+}
+
+#bantuan h2 {
+    width: 441px;
+}
+
+#bantuan .overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#bantuan .container {
+    padding: 148px 0 148px 0;
+
+}
+
+#bantuan h3 {
+    width: 443px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 60px;
+    color: #fff;
+}
+
+
+#bantuan h6 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    margin: 19px 0 14px 0;
+    color: #fff;
+}
+
+.kontak-bantuan a {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 18px;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 18px;
+    Width: 332px;
+    display: inline-block;
+}
+
+.rumah-impian {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #fff;
+}
+
+.card-bantuan {
+    background-color: #fff;
+    border: none;
+    width: 100%;
+    height: 445px;
+    border-radius: 5px;
+    padding: 52px 48px;
+}
+
+.card-bantuan h2 {
+    color: var(--pw-color);
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 21px;
+
+}
+
+.button-contact {
+    width: 100%;
+    height: 75px;
+    background-color: var(--pw-color);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.form-control {
+    background: #C4C4C4;
+    height: 75px !important;
+    border-radius: 0;
+}
+
+.form-floating {
+    color: #717171;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Akhir Bantuan */
+
+/* Footer */
+
+footer {
+    height: 270px;
+}
+
+.copyright {
+    bottom: 1%;
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+/* Akhir Footer */
