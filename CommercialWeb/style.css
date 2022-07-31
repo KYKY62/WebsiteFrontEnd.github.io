@@ -16,6 +16,17 @@ body {
     z-index: 2;
 }
 
+/* Nav Color */
+
+.nav-color {
+    background-color: #007245;
+    transition: all ease-in-out .3s;
+}
+
+.bg-transparent {
+    transition: all ease-in-out .3s;
+}
+
 .accent-img {
     z-index: 1;
 }
@@ -239,6 +250,10 @@ span.sub-title {
     font-weight: 500;
 }
 
+.input-cari .form-control {
+    height: 88px !important;
+}
+
 .nav-tabs {
     border: none;
 }
@@ -406,7 +421,6 @@ span.sub-title {
     height: 61px;
     background-color: var(--pw-color);
     right: 230px;
-
 }
 
 /* Akhir Fitur Rumah */
@@ -416,7 +430,7 @@ span.sub-title {
 
 #bantuan {
     background-image: url(assets/img/kontak-img.png);
-    height: 100vh;
+    height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 158px;

@@ -1,0 +1,109 @@
+@media screen and (max-width : 922px) {
+    .button-primary {
+        display: block;
+        width: 100%;
+    }
+
+    .button-secondary {
+        display: block;
+        width: 100%;
+    }
+
+    .input-cari .button-secondary {
+        width: 120px;
+        font-size: 14px;
+        display: block;
+        border-radius: 0;
+    }
+
+    .input-cari .button-primary {
+        font-size: 24px;
+        display: block;
+        width: 100%;
+        border-radius: 0 0 10px 10px !important;
+    }
+
+    .button-fitur {
+        width: 100%;
+    }
+
+    .button-right {
+        right: 5%;
+    }
+
+    #bantuan h3 {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .card-bantuan {
+        width: 100%;
+        height: auto;
+        padding: 52px 48px;
+        margin-top: 42px;
+    }
+
+    .card-bantuan h2 {
+        font-size: 27px;
+        line-height: 42px;
+        margin-bottom: 21px;
+    }
+
+    .input-cari .button-primary {}
+}
+
+@media screen and (max-width : 576px) {
+    .hero-line h1 {
+        line-height: 52px;
+    }
+
+    .img-hero {
+        width: 75%;
+        height: auto;
+    }
+
+    .layanan-title h2 {
+        font-size: 34px;
+    }
+
+    .sub-title {
+        font-size: 16px;
+    }
+
+    .card-layanan {
+        margin: 15px 0;
+        padding-bottom: 50px;
+    }
+
+    .SearchTitle {
+        font-size: 42px;
+        line-height: 52px;
+    }
+
+    .SearchSubTitle {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .input-cari .button-secondary {
+        width: 50%;
+        height: 60px;
+        border-radius: 0;
+    }
+
+    .input-cari .button-primary {
+        width: 30%;
+        font-size: 36px;
+        border-radius: 0;
+        height: 60px;
+    }
+
+    .input-cari .form-control {
+        height: 60px !important;
+        font-size: 15px;
+    }
+
+
+}
+
+@media screen and (max-width : 350px) {}
